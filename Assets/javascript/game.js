@@ -22,7 +22,7 @@ Main.SetUnderline = function() {
     Main.PullWord();
     for(i=0;i<Main.Word.length;i++){
         Main.WordArray[i]= Main.Word.charAt(i);
-        Main.WordUArray[i]="_";
+        Main.WordUArray[i]="   _   ";
     }
     
     Main.WordU = Main.WordUArray.join("");
@@ -55,14 +55,18 @@ Main.UpdateLetter = function(letter){
     Main.Word2=Main.WordUArray.join("");
     
     if(Main.Word1 == Main.Word2){
-        alert("You Won!");
+        alert(src="You Won! Let's Play Again");
         window.location.reload();
        
        }
     
     if(Main.Lives<1){
         document.getElementById("WORD").innerHTML == Main.Word1;
-        alert("You died! Lets play again");
+        
+        alert("YOU DIED! Lets Play Again");
+        
+    
+        
         window.location.reload();
        
        }
