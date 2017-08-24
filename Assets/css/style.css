@@ -1,0 +1,44 @@
+body {
+    background-color:pink;
+}
+
+#title {
+    text-align:center;
+}
+#container {
+    font-size: 20px;
+    width:50%;
+    border-bottom:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: pink;
+    color: blue;
+    margin:10% auto;
+    text-align:center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#WORD{
+    margin-bottom: 50px
+}
+
+#letters a{
+    color:mediumpurple;
+    background-color: darkgray;
+    border-radius:5px;
+    padding:5px;
+    cursor:pointer;
+    text-align:center;
+}
+
+#letters a:hover{
+    color:palegreen;
+}
+
+#letters a .d{
+    color:yellow;
+    text-decoration:underline;
+    float:left;
+
+}
+
